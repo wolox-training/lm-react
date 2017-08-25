@@ -1,0 +1,58 @@
+.Filter {
+  height: 180px;
+  width: 100%;
+}
+
+.FilterForm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding: 0 30px;
+}
+
+.input-select,
+.input-search {
+  width: 240px;
+}
+
+.input-select,
+.input-text {
+  background: #F4F4F4;
+  height: 40px;
+  border: 0;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.input-select {
+  margin-right: 30px;
+}
+
+.icon-button {
+  background: #A5CD39;
+  background-image: url('./assets/search.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  padding: 0 0 15px 0;
+}
+
+@media screen and (max-width: 640px) {
+  .FilterForm {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .input-select {
+    margin: 0 0 30px;
+  }
+
+  .input-search, .input-select {
+    width: 100%;
+    max-width: 350px;
+  }
+}
