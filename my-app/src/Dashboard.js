@@ -31,7 +31,7 @@ class Dashboard extends Component {
 
   render() {
     return (
-      <div className="Dashboard">
+      <div className="dashboard">
         <Filter filterList={this.filterList} typeFilter={this.state.typeFilter} textFilter={this.state.textFilter}/>
         <ListBooks books={this.state.dataBooks}/>
       </div>
