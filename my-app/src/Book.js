@@ -11,7 +11,7 @@ class Book extends Component {
     }
 
     return (
-      <li className="Book">
+      <li className="book">
         <div className="img-book">
           <img
             className={classImg}
